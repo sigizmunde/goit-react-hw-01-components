@@ -1,19 +1,6 @@
-import { Profile } from './Profile';
+import { Profile } from './Profile/Profile';
 
 import user from './../user.json';
-
-// const user = {
-//   username: 'Bob Odenkirk',
-//   tag: 'bobafett',
-//   location: 'Boryspil, Ukraine',
-//   avatar:
-//     'https://images.pexels.com/photos/9522822/pexels-photo-9522822.jpeg?auto=compress&cs=tinysrgb&w=250',
-//   stats: [
-//     { param: 'Followers', value: 198 },
-//     { param: 'Views', value: 3685 },
-//     { param: 'Likes', value: 492 },
-//   ],
-// };
 
 export const App = () => {
   return (
