@@ -18,11 +18,6 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
-    stats: PropTypes.arrayOf(
-      PropTypes.shape({
-        param: PropTypes.string.isRequired,
-        value: PropTypes.number.isRequired,
-      })
-    ),
+    stats: PropTypes.object.isRequired,
   }).isRequired,
 };
