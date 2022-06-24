@@ -6,8 +6,9 @@
 }
 
 .description {
+  padding: 72px 0 36px;
   width: 360px;
-  height: 320px;
+  min-height: 320px;
   text-align: center;
   color: var(--mid-text-color);
   background-color: var(--light-back-color);
@@ -17,7 +18,7 @@
   display: block;
   width: 150px;
   height: 150px;
-  margin: 72px auto 0;
+  margin: 0 auto;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -31,6 +32,7 @@
 
 .tag,
 .location {
+  margin: 16px 0 0;
   color: var(--mid-text-color);
   font-size: 16px;
   font-weight: 400;

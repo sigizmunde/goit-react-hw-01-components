@@ -1,13 +1,16 @@
 @import-normalize; /* bring in normalize.css styles */
 
 * {
+  --light-text-color: #fff;
   --light-back-color: #fff;
   --lightgray-back-color: #eaedf7;
   --dark-text-color: #111111;
-  --mid-back-color: #babde7;
+  --mid-back-color: #d8d9e4;
   --mid-text-color: #616168;
 
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -17,6 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--mid-back-color);
 }
 
 code {
