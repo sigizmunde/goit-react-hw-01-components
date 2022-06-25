@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
 
 * {
   --light-text-color: #fff;
@@ -7,6 +8,7 @@
   --dark-text-color: #111111;
   --mid-back-color: #d8d9e4;
   --mid-text-color: #616168;
+  --accent-color: rgb(0, 164, 240);
 
   box-sizing: border-box;
   margin: 0;
